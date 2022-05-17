@@ -55,7 +55,7 @@ h6 {
   margin: 10px 15px;
   position: relative;
 }
-.gallery{
+.gallery {
   display: inline-block;
   margin: 0 15px 15px 0px;
   padding: 0 0px 10px 13px;
@@ -64,14 +64,17 @@ h6 {
 }
 
 .image {
-  background-image: url(/images/img_1.jpg);
   background-size: 240px 290px;
   width: 240px;
   height: 290px;
   border: 1px;
   border-radius: 25px;
   position: relative;
- 
+}
+.image img {
+  border-radius: 25px;
+  width: 240px;
+  height: 290px;
 }
 
 .image:hover + .cart {
@@ -80,15 +83,19 @@ h6 {
 }
 
 .image-1 {
-  background-image: url(/images/img_2.jpg);
   background-size: 240px 290px;
   width: 240px;
   height: 290px;
   border: 1px;
   border-radius: 25px;
   position: relative;
- 
 }
+.image-1 img {
+  border-radius: 25px;
+  width: 240px;
+  height: 290px;
+}
+
 
 .image-1:hover + .cart {
   position: absolute;
@@ -96,15 +103,19 @@ h6 {
 }
 
 .image-2 {
-  background-image: url(/images/img_3.jpg);
   background-size: 240px 290px;
   width: 240px;
   height: 290px;
   border: 1px;
   border-radius: 25px;
   position: relative;
- 
 }
+.image-2 img {
+  border-radius: 25px;
+  width: 240px;
+  height: 290px;
+}
+
 
 .image-2:hover + .cart {
   position: absolute;
@@ -112,15 +123,19 @@ h6 {
 }
 
 .image-3 {
-  background-image: url(/images/img_4.jpg);
   background-size: 240px 290px;
   width: 240px;
   height: 290px;
   border: 1px;
   border-radius: 25px;
   position: relative;
- 
 }
+.image-3 img {
+  border-radius: 25px;
+  width: 240px;
+  height: 290px;
+}
+
 /* line 65, 66, 114, 130, 139, 140, 141, 
  when u want to make an overlay appear on hover  */
 
@@ -135,10 +150,9 @@ h6 {
   height: 290px;
   position: absolute;
   bottom: 150px;
-  transition: all 0.5s ;
+  transition: all 0.5s;
   transform: translateY(-52%);
   background: rgba(0, 0, 0, 0.6);
-
 }
 
 .cart div {
