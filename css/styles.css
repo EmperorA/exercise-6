@@ -96,7 +96,6 @@ h6 {
   height: 290px;
 }
 
-
 .image-1:hover + .cart {
   position: absolute;
   transform: translateY(48.5%);
@@ -115,7 +114,6 @@ h6 {
   width: 240px;
   height: 290px;
 }
-
 
 .image-2:hover + .cart {
   position: absolute;
